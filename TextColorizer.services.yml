@@ -1,0 +1,5 @@
+services:
+  TextColorizer.twig_extension:
+    class: Drupal\TextColorizer\TwigExtension\TextColorizerExtension
+    tags:
+      - { name: twig.extension }
